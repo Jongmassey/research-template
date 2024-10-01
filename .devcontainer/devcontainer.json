@@ -19,15 +19,6 @@
     },
     // Configure tool-specific properties.
     "customizations": {
-        "codespaces": {
-            "repositories": {
-                "opensafely/server-instructions": {
-                    "permissions": {
-                        "contents": "read"
-                    }
-                }
-            }
-        },
         "vscode": {
             "extensions": [
                 "ms-python.python",
@@ -39,7 +30,9 @@
                 "files.autoSave": "afterDelay",
                 "files.autoSaveDelay": 1000,
                 "git.autofetch": true,
-                "python.analysis.extraPaths": [".devcontainer/ehrql-main/"],
+                "python.analysis.extraPaths": [
+                    ".devcontainer/ehrql-main/"
+                ],
                 "python.defaultInterpreterPath": "/opt/venv/bin/python",
                 "python.terminal.activateEnvInCurrentTerminal": true,
                 "python.terminal.activateEnvironment": true,
